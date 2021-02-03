@@ -1,0 +1,16 @@
+<div>
+  <h1>
+    Welcome to {{title}}
+  </h1>
+  <h3>
+    I am Parent
+  </h3>
+  <p>{{myInputMessage}}</p>
+<div>
+  <!-- <app-child [myInputMsg]="myInputMessage" myInputMsg="Enter a new title" (myOutput) ="GetChildData($event)"></app-child> -->
+  <app-child  myInputMsg="I am Parent Component for child"></app-child>
+  
+ 
+  <!-- <app-child (valuechange) ="displayCounter($event)"></app-child> -->
+</div>
+</div>
